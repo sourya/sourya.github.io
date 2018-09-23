@@ -60,7 +60,9 @@ If a new column is added with a default, it causes the table to lock for a time 
 3. Write a script that updates the existing rows with the default value.
 4. Add the not-null constraint if required.
 
-Some application frameworks like Django do not set a default on the DB at all. They handle it in the application.
+**[UPDATE]:** Postgres 11 brings in a change that makes `ADD COLUMN` with `DEFAULT` values fast by marshaling them for existing rows only as necessary. (Quoted from [here](https://brandur.org/postgres-default)). Thanks to [Sanket Saurav](https://twitter.com/sanketsaurav) for pointing this out.
+
+ORMs of some application frameworks like Django do not set a default on the DB at all. They handle it in the application.
 
 ### Adding an index
 
