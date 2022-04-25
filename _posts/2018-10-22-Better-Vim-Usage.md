@@ -95,7 +95,7 @@ remember how the code is arranged. Fuzzy search, however, gets your work done fa
 #### 7. Repeating actions
 
 While using Vim, you shouldn't have to repeat yourself too often. There are repeat commands in Vim that will help you
-redo the previous actions. Try reading up on the usage of `.`, `&`, `n` and `N`.
+redo the previous actions. Try reading up on the usage of `.`, `&`, `n`, and `N`.
 
 #### Further help
 
