@@ -87,7 +87,7 @@ I tend to specify the entire path of the file I am trying to open.
 :tabnew /path/to/file
 ```
 [Gary Bernhardt](https://www.destroyallsoftware.com/), however, suggests using the `Command-T` plugin,
-similar to `Ctrl-P` in Sublime Text, that searches for the file through the entire directory in a fuzzy way.
+similar to `Ctrl-P` in Sublime Text, that searches for the file through the entire directory in a better way.
 
 I specify the entire path because it helps me remember the exact location of every file. It also helps me
 remember how the code is arranged. Fuzzy search, however, gets your work done faster. Choose as you wish.
@@ -95,7 +95,7 @@ remember how the code is arranged. Fuzzy search, however, gets your work done fa
 #### 7. Repeating actions
 
 While using Vim, you shouldn't have to repeat yourself too often. There are repeat commands in Vim that will help you
-redo the previous actions. Try reading up on the usage of `.`, `&`, `n` and `N`.
+redo the previous actions. Try reading up on the usage of `.`, `&`, `n`, and `N`.
 
 #### Further help
 
